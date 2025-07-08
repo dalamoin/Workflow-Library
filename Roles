@@ -1,0 +1,488 @@
+{
+  "role_types_dictionary": {
+    "Administrator": {
+      "role_id": "ADM",
+      "description": "Manages documentation, records, and administrative processes",
+      "primary_functions": ["documentation", "archival", "record_keeping", "administrative_support"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Analyst": {
+      "role_id": "ANA",
+      "description": "Analyzes data, identifies patterns, and provides insights for decision-making",
+      "primary_functions": ["data_analysis", "variance_analysis", "requirements_analysis", "performance_evaluation"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Approver": {
+      "role_id": "APR",
+      "description": "Reviews and makes approval decisions on requests and changes",
+      "primary_functions": ["approval_decisions", "authorization", "gate_keeping", "compliance_verification"],
+      "authority_level": "Management",
+      "decision_making": "High"
+    },
+    "Authorizer": {
+      "role_id": "AUT",
+      "description": "Provides authorization for expenditures, actions, and resources",
+      "primary_functions": ["expenditure_authorization", "action_approval", "resource_authorization", "permission_granting"],
+      "authority_level": "Management",
+      "decision_making": "High"
+    },
+    "Auditor": {
+      "role_id": "AUD",
+      "description": "Conducts audits and assessments for compliance and quality",
+      "primary_functions": ["compliance_auditing", "quality_auditing", "process_auditing", "performance_auditing"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Collector": {
+      "role_id": "COL",
+      "description": "Gathers and compiles information, data, and requirements",
+      "primary_functions": ["data_collection", "information_gathering", "requirement_compilation", "input_aggregation"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Communicator": {
+      "role_id": "COM",
+      "description": "Manages communication channels and information dissemination",
+      "primary_functions": ["information_dissemination", "stakeholder_communication", "reporting", "messaging"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Coordinator": {
+      "role_id": "CRD",
+      "description": "Coordinates activities, resources, and stakeholder interactions",
+      "primary_functions": ["activity_coordination", "resource_coordination", "stakeholder_coordination", "process_facilitation"],
+      "authority_level": "Operational",
+      "decision_making": "Moderate"
+    },
+    "Creator": {
+      "role_id": "CRT",
+      "description": "Creates deliverables, documents, and project artifacts",
+      "primary_functions": ["deliverable_creation", "document_development", "artifact_generation", "output_production"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Developer": {
+      "role_id": "DEV",
+      "description": "Develops plans, strategies, and methodological frameworks",
+      "primary_functions": ["plan_development", "strategy_formulation", "methodology_creation", "framework_design"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Estimator": {
+      "role_id": "EST",
+      "description": "Provides estimates for duration, cost, effort, and resource requirements",
+      "primary_functions": ["duration_estimation", "cost_estimation", "effort_estimation", "resource_estimation"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Evaluator": {
+      "role_id": "EVA",
+      "description": "Evaluates performance, effectiveness, and compliance",
+      "primary_functions": ["performance_evaluation", "effectiveness_assessment", "compliance_evaluation", "quality_assessment"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Executor": {
+      "role_id": "EXE",
+      "description": "Executes plans, strategies, and operational activities",
+      "primary_functions": ["plan_execution", "strategy_implementation", "operational_delivery", "activity_performance"],
+      "authority_level": "Operational",
+      "decision_making": "Moderate"
+    },
+    "Forecaster": {
+      "role_id": "FOR",
+      "description": "Provides forecasts and projections for future performance",
+      "primary_functions": ["performance_forecasting", "trend_projection", "future_state_prediction", "projection_analysis"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Manager": {
+      "role_id": "MGR",
+      "description": "Manages teams, processes, and organizational resources",
+      "primary_functions": ["team_management", "process_management", "resource_management", "strategic_oversight"],
+      "authority_level": "Management",
+      "decision_making": "High"
+    },
+    "Mediator": {
+      "role_id": "MED",
+      "description": "Mediates conflicts and facilitates resolution between parties",
+      "primary_functions": ["conflict_resolution", "negotiation_facilitation", "dispute_mediation", "relationship_repair"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Methodologist": {
+      "role_id": "MET",
+      "description": "Establishes methodologies, standards, and systematic approaches",
+      "primary_functions": ["methodology_establishment", "standards_definition", "systematic_approach_design", "best_practice_development"],
+      "authority_level": "Strategic",
+      "decision_making": "High"
+    },
+    "Monitor": {
+      "role_id": "MON",
+      "description": "Monitors performance, progress, and compliance indicators",
+      "primary_functions": ["performance_monitoring", "progress_tracking", "compliance_monitoring", "indicator_surveillance"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Negotiator": {
+      "role_id": "NEG",
+      "description": "Negotiates agreements, contracts, and resolutions",
+      "primary_functions": ["contract_negotiation", "agreement_facilitation", "terms_negotiation", "deal_structuring"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Planner": {
+      "role_id": "PLN",
+      "description": "Plans activities, resources, and strategic initiatives",
+      "primary_functions": ["activity_planning", "resource_planning", "strategic_planning", "schedule_development"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Processor": {
+      "role_id": "PRC",
+      "description": "Processes requests, transactions, and operational workflows",
+      "primary_functions": ["request_processing", "transaction_processing", "workflow_execution", "operational_processing"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Reviewer": {
+      "role_id": "REV",
+      "description": "Reviews deliverables, processes, and compliance for quality and accuracy",
+      "primary_functions": ["deliverable_review", "process_review", "compliance_review", "quality_verification"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Specialist": {
+      "role_id": "SPC",
+      "description": "Provides specialized expertise in specific technical or functional domains",
+      "primary_functions": ["technical_expertise", "specialized_knowledge", "domain_expertise", "expert_consultation"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Strategist": {
+      "role_id": "STR",
+      "description": "Develops strategic approaches and long-term planning initiatives",
+      "primary_functions": ["strategic_development", "long_term_planning", "strategic_analysis", "approach_formulation"],
+      "authority_level": "Strategic",
+      "decision_making": "High"
+    },
+    "Tracker": {
+      "role_id": "TRK",
+      "description": "Tracks progress, changes, and performance metrics",
+      "primary_functions": ["progress_tracking", "change_tracking", "metric_tracking", "status_monitoring"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Allocator": {
+      "role_id": "ALL",
+      "description": "Allocates resources and assigns responsibilities",
+      "primary_functions": ["resource_allocation", "responsibility_assignment", "workload_distribution", "capacity_planning"],
+      "authority_level": "Operational",
+      "decision_making": "Moderate"
+    }
+  },
+  "functional_roles": [
+    {
+      "title": "Project Vision Analyst",
+      "title_id": "SCO.PLN_ANA",
+      "super_operation": "SCO",
+      "management_cycle_phase": "PLN",
+      "description": "Defines and establishes project vision, objectives, and high-level deliverables",
+      "role_type": "Analyst",
+      "role_id": "ANA",
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation",
+      "primary_functions": ["data_analysis", "variance_analysis", "requirements_analysis", "performance_evaluation"]
+    },
+    {
+      "title": "Requirements Analyst",
+      "title_id": "SCO.PLN_ANA2",
+      "super_operation": "SCO",
+      "management_cycle_phase": "PLN",
+      "description": "Identifies and analyzes initial project requirements and constraints",
+      "role_type": "Analyst",
+      "role_id": "ANA",
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation",
+      "primary_functions": ["data_analysis", "variance_analysis", "requirements_analysis", "performance_evaluation"]
+    },
+    {
+      "title": "Scope Management Plan Developer",
+      "title_id": "SCO.PLN_DEV",
+      "super_operation": "SCO",
+      "management_cycle_phase": "PLN",
+      "description": "Develops comprehensive scope management planning methodology",
+      "role_type": "Developer",
+      "role_id": "DEV",
+      "authority_level": "Specialist",
+      "decision_making": "Moderate",
+      "primary_functions": ["plan_development", "strategy_formulation", "methodology_creation", "framework_design"]
+    },
+    {
+      "title": "WBS Methodologist",
+      "title_id": "SCO.PLN_MET",
+      "super_operation": "SCO",
+      "management_cycle_phase": "PLN",
+      "description": "Establishes Work Breakdown Structure methodology and guidelines",
+      "role_type": "Methodologist",
+      "role_id": "MET",
+      "authority_level": "Strategic",
+      "decision_making": "High",
+      "primary_functions": ["methodology_establishment", "standards_definition", "systematic_approach_design", "best_practice_development"]
+    },
+    {
+      "title": "Scope Validation Process Analyst",
+      "title_id": "SCO.PLN_ANA3",
+      "super_operation": "SCO",
+      "management_cycle_phase": "PLN",
+      "description": "Defines formal scope validation processes and procedures",
+      "role_type": "Analyst",
+      "role_id": "ANA",
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation",
+      "primary_functions": ["data_analysis", "variance_analysis", "requirements_analysis", "performance_evaluation"]
+    },
+    {
+      "title": "Change Control Process Coordinator",
+      "title_id": "SCO.PLN_CRD",
+      "super_operation": "SCO",
+      "management_cycle_phase": "PLN",
+      "description": "Sets up change control processes and approval frameworks",
+      "role_type": "Coordinator",
+      "role_id": "CRD",
+      "authority_level": "Operational",
+      "decision_making": "Moderate",
+      "primary_functions": ["activity_coordination", "resource_coordination", "stakeholder_coordination", "process_facilitation"]
+    },
+    {
+      "title": "Requirements Collector",
+      "title_id": "SCO.EXE_COL",
+      "super_operation": "SCO",
+      "management_cycle_phase": "EXE",
+      "description": "Collects and gathers detailed requirements from stakeholders",
+      "role_type": "Collector",
+      "role_id": "COL",
+      "authority_level": "Support",
+      "decision_making": "Limited",
+      "primary_functions": ["data_collection", "information_gathering", "requirement_compilation", "input_aggregation"]
+    },
+    {
+      "title": "Scope Decomposition Analyst",
+      "title_id": "SCO.EXE_ANA",
+      "super_operation": "SCO",
+      "management_cycle_phase": "EXE",
+      "description": "Decomposes project scope into detailed Work Breakdown Structure",
+      "role_type": "Analyst",
+      "role_id": "ANA",
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation",
+      "primary_functions": ["data_analysis", "variance_analysis", "requirements_analysis", "performance_evaluation"]
+    },
+    {
+      "title": "Scope Statement Developer",
+      "title_id": "SCO.EXE_DEV",
+      "super_operation": "SCO",
+      "management_cycle_phase": "EXE",
+      "description": "Creates formal Project Scope Statements and documentation",
+      "role_type": "Developer",
+      "role_id": "DEV",
+      "authority_level": "Specialist",
+      "decision_making": "Moderate",
+      "primary_functions": ["plan_development", "strategy_formulation", "methodology_creation", "framework_design"]
+    },
+    {
+      "title": "Scope Acceptance Coordinator",
+      "title_id": "SCO.EXE_CRD",
+      "super_operation": "SCO",
+      "management_cycle_phase": "EXE",
+      "description": "Obtains formal acceptance of scope baselines from stakeholders",
+      "role_type": "Coordinator",
+      "role_id": "CRD",
+      "authority_level": "Operational",
+      "decision_making": "Moderate",
+      "primary_functions": ["activity_coordination", "resource_coordination", "stakeholder_coordination", "process_facilitation"]
+    },
+    {
+      "title": "Scope Baseline Communicator",
+      "title_id": "SCO.EXE_COM",
+      "super_operation": "SCO",
+      "management_cycle_phase": "EXE",
+      "description": "Communicates approved scope baselines to project teams",
+      "role_type": "Communicator",
+      "role_id": "COM",
+      "authority_level": "Support",
+      "decision_making": "Limited",
+      "primary_functions": ["information_dissemination", "stakeholder_communication", "reporting", "messaging"]
+    },
+    {
+      "title": "Scope Change Processor",
+      "title_id": "SCO.EXE_PRC",
+      "super_operation": "SCO",
+      "management_cycle_phase": "EXE",
+      "description": "Processes approved scope changes through control systems",
+      "role_type": "Processor",
+      "role_id": "PRC",
+      "authority_level": "Support",
+      "decision_making": "Limited",
+      "primary_functions": ["request_processing", "transaction_processing", "workflow_execution", "operational_processing"]
+    },
+    {
+      "title": "Scope Progress Monitor",
+      "title_id": "SCO.MON_MON",
+      "super_operation": "SCO",
+      "management_cycle_phase": "MON",
+      "description": "Monitors project progress against approved scope baselines",
+      "role_type": "Monitor",
+      "role_id": "MON",
+      "authority_level": "Support",
+      "decision_making": "Limited",
+      "primary_functions": ["performance_monitoring", "progress_tracking", "compliance_monitoring", "indicator_surveillance"]
+    },
+    {
+      "title": "Scope Change Tracker",
+      "title_id": "SCO.MON_TRK",
+      "super_operation": "SCO",
+      "management_cycle_phase": "MON",
+      "description": "Tracks and documents all proposed scope changes",
+      "role_type": "Tracker",
+      "role_id": "TRK",
+      "authority_level": "Support",
+      "decision_making": "Limited",
+      "primary_functions": ["progress_tracking", "change_tracking", "metric_tracking", "status_monitoring"]
+    },
+    {
+      "title": "Scope Creep Analyst",
+      "title_id": "SCO.MON_ANA",
+      "super_operation": "SCO",
+      "management_cycle_phase": "MON",
+      "description": "Identifies potential scope creep and unauthorized work instances",
+      "role_type": "Analyst",
+      "role_id": "ANA",
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation",
+      "primary_functions": ["data_analysis", "variance_analysis", "requirements_analysis", "performance_evaluation"]
+    },
+    {
+      "title": "Change Control Compliance Monitor",
+      "title_id": "SCO.MON_MON2",
+      "super_operation": "SCO",
+      "management_cycle_phase": "MON",
+      "description": "Monitors adherence to established change control processes",
+      "role_type": "Monitor",
+      "role_id": "MON",
+      "authority_level": "Support",
+      "decision_making": "Limited",
+      "primary_functions": ["performance_monitoring", "progress_tracking", "compliance_monitoring", "indicator_surveillance"]
+    },
+    {
+      "title": "Change Request Reviewer",
+      "title_id": "SCO.CTL_REV",
+      "super_operation": "SCO",
+      "management_cycle_phase": "CTL",
+      "description": "Reviews and evaluates scope change requests through control processes",
+      "role_type": "Reviewer",
+      "role_id": "REV",
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation",
+      "primary_functions": ["deliverable_review", "process_review", "compliance_review", "quality_verification"]
+    },
+    {
+      "title": "Scope Change Approver",
+      "title_id": "SCO.CTL_APR",
+      "super_operation": "SCO",
+      "management_cycle_phase": "CTL",
+      "description": "Approves or rejects scope change requests",
+      "role_type": "Approver",
+      "role_id": "APR",
+      "authority_level": "Management",
+      "decision_making": "High",
+      "primary_functions": ["approval_decisions", "authorization", "gate_keeping", "compliance_verification"]
+    },
+    {
+      "title": "Scope Change Manager",
+      "title_id": "SCO.CTL_MGR",
+      "super_operation": "SCO",
+      "management_cycle_phase": "CTL",
+      "description": "Manages and integrates approved scope changes into project plans",
+      "role_type": "Manager",
+      "role_id": "MGR",
+      "authority_level": "Management",
+      "decision_making": "High",
+      "primary_functions": ["team_management", "process_management", "resource_management", "strategic_oversight"]
+    },
+    {
+      "title": "Unauthorized Work Controller",
+      "title_id": "SCO.CTL_CRD",
+      "super_operation": "SCO",
+      "management_cycle_phase": "CTL",
+      "description": "Prevents unauthorized work and addresses scope creep instances",
+      "role_type": "Coordinator",
+      "role_id": "CRD",
+      "authority_level": "Operational",
+      "decision_making": "Moderate",
+      "primary_functions": ["activity_coordination", "resource_coordination", "stakeholder_coordination", "process_facilitation"]
+    },
+    {
+      "title": "Scope Rebaseline Coordinator",
+      "title_id": "SCO.CTL_CRD2",
+      "super_operation": "SCO",
+      "management_cycle_phase": "CTL",
+      "description": "Re-baselines scope when significant approved changes necessitate it",
+      "role_type": "Coordinator",
+      "role_id": "CRD",
+      "authority_level": "Operational",
+      "decision_making": "Moderate",
+      "primary_functions": ["activity_coordination", "resource_coordination", "stakeholder_coordination", "process_facilitation"]
+    },
+    {
+      "title": "Scope Validation Specialist",
+      "title_id": "SCO.CLS_SPC",
+      "super_operation": "SCO",
+      "management_cycle_phase": "CLS",
+      "description": "Conducts final validation of project scope with stakeholders",
+      "role_type": "Specialist",
+      "role_id": "SPC",
+      "authority_level": "Specialist",
+      "decision_making": "Moderate",
+      "primary_functions": ["technical_expertise", "specialized_knowledge", "domain_expertise", "expert_consultation"]
+    },
+    {
+      "title": "Scope Sign-off Coordinator",
+      "title_id": "SCO.CLS_CRD",
+      "super_operation": "SCO",
+      "management_cycle_phase": "CLS",
+      "description": "Obtains formal sign-off on completed project scope",
+      "role_type": "Coordinator",
+      "role_id": "CRD",
+      "authority_level": "Operational",
+      "decision_making": "Moderate",
+      "primary_functions": ["activity_coordination", "resource_coordination", "stakeholder_coordination", "process_facilitation"]
+    },
+    {
+      "title": "Scope Lessons Learned Analyst",
+      "title_id": "SCO.CLS_ANA",
+      "super_operation": "SCO",
+      "management_cycle_phase": "CLS",
+      "description": "Performs lessons learned analysis related to scope management",
+      "role_type": "Analyst",
+      "role_id": "ANA",
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation",
+      "primary_functions": ["data_analysis", "variance_analysis", "requirements_analysis", "performance_evaluation"]
+    },
+    {
+      "title": "Scope Documentation Administrator",
+      "title_id": "SCO.CLS_ADM",
+      "super_operation": "SCO",
+      "management_cycle_phase": "CLS",
+      "description": "Archives all scope-related documentation and records",
+      "role_type": "Administrator",
+      "role_id": "ADM",
+      "authority_level": "Support",
+      "decision_making": "Limited",
+      "primary_functions": ["documentation", "archival", "record_keeping", "administrative_support"]
+    }
+  ]
+}
