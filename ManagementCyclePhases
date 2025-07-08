@@ -1,0 +1,29 @@
+{
+  "ManagementCyclePhases": [
+    {
+      "unique_id": "PLN",
+      "name": "Planning",
+      "description": "Establish objectives, define scope, develop strategies, and create detailed plans with timelines and resource allocation"
+    },
+    {
+      "unique_id": "EXE",
+      "name": "Execution", 
+      "description": "Implement planned activities, deploy resources, coordinate team efforts, and deliver planned outputs according to specifications"
+    },
+    {
+      "unique_id": "MON",
+      "name": "Monitoring",
+      "description": "Track progress against plans, measure performance indicators, collect data, and identify deviations from expected outcomes"
+    },
+    {
+      "unique_id": "CTL",
+      "name": "Controlling",
+      "description": "Analyze performance gaps, implement corrective actions, adjust plans as needed, and manage changes to stay on track"
+    },
+    {
+      "unique_id": "CLS",
+      "name": "Closure+",
+      "description": "Complete final deliverables, conduct performance reviews, document lessons learned, and formally conclude activities"
+    }
+  ]
+}
