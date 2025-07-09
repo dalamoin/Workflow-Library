@@ -1,0 +1,229 @@
+{
+  "Operations": [
+    {
+      "operation_id": "OP_SCO.PLN_TIM.PLN",
+      "name": "Project Scope Definition & Master Schedule Alignment",
+      "criticality_level": "Critical",
+      "description": "Ensuring the initial project scope, including major deliverables and work packages, is accurately reflected in the high-level master schedule, establishing key milestones and overall project duration.",
+      "output": "Aligned Project Scope and Master Schedule",
+      "source_operation_ids": ["SCO.PLN", "TIM.PLN"],
+      "success_criteria": "Master schedule accurately reflects approved scope elements; key scope milestones are integrated into the schedule; no discrepancies between initial scope and schedule duration.",
+      "workflows": [
+        {
+          "workflow_id": "OP_SCO.PLN_TIM.PLN_WF_001",
+          "name": "Define Project Vision and Objectives",
+          "description": "Establish comprehensive project vision, objectives, and high-level deliverables through stakeholder analysis",
+          "output": "Project Vision Statement and Objectives Matrix",
+          "predecessor_workflow": [],
+          "subsequent_workflow": [],
+          "steps": [
+            {
+              "step_id": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_001",
+              "step_name": "Gather Stakeholder Requirements",
+              "step_sequence": 1,
+              "predecessor_step": null,
+              "subsequent_step": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_002",
+              "output": "Stakeholder Requirements Compilation",
+              "stakeholder_assignments": {
+                "responsible": ["SCO.PLN_ANA"],
+                "accountable": ["SCO.PLN_MET"],
+                "consulted": ["SCO.PLN_DEV", "SCO.PLN_CRD"],
+                "informed": ["TIM.PLN_MET"]
+              },
+              "value_stream_justification": {
+                "is_value_added": true,
+                "customer_defined_value": "Direct stakeholder input ensuring project meets actual needs",
+                "waste_elimination": [
+                  {
+                    "muda_id": "DEF",
+                    "description": "Prevents defects from incomplete or misunderstood requirements"
+                  },
+                  {
+                    "muda_id": "OVE",
+                    "description": "Eliminates overproduction by focusing on stated needs"
+                  }
+                ],
+                "value_add_activity": [
+                  {
+                    "value_id": "CWP",
+                    "description": "Captures what customers are willing to pay for"
+                  }
+                ]
+              }
+            },
+            {
+              "step_id": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_002",
+              "step_name": "Analyze and Synthesize Requirements",
+              "step_sequence": 2,
+              "predecessor_step": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_001",
+              "subsequent_step": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_003",
+              "output": "Requirements Analysis Report",
+              "stakeholder_assignments": {
+                "responsible": ["SCO.PLN_ANA", "SCO.PLN_DEV"],
+                "accountable": ["SCO.PLN_MET"],
+                "consulted": ["SCO.PLN_CRD"],
+                "informed": ["TIM.PLN_MET"]
+              },
+              "value_stream_justification": {
+                "is_value_added": true,
+                "customer_defined_value": "Synthesized understanding enabling focused project direction",
+                "waste_elimination": [
+                  {
+                    "muda_id": "DEF",
+                    "description": "Prevents defects from conflicting or unclear requirements"
+                  },
+                  {
+                    "muda_id": "WAI",
+                    "description": "Eliminates waiting from requirement clarifications later"
+                  }
+                ],
+                "value_add_activity": [
+                  {
+                    "value_id": "TRA",
+                    "description": "Transforms raw requirements into actionable insights"
+                  }
+                ]
+              }
+            },
+            {
+              "step_id": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_003",
+              "step_name": "Develop Project Vision Statement",
+              "step_sequence": 3,
+              "predecessor_step": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_002",
+              "subsequent_step": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_004",
+              "output": "Draft Project Vision Statement",
+              "stakeholder_assignments": {
+                "responsible": ["SCO.PLN_DEV"],
+                "accountable": ["SCO.PLN_MET"],
+                "consulted": ["SCO.PLN_ANA"],
+                "informed": ["SCO.PLN_CRD", "TIM.PLN_MET"]
+              },
+              "value_stream_justification": {
+                "is_value_added": true,
+                "customer_defined_value": "Clear project direction that enables aligned decision making",
+                "waste_elimination": [
+                  {
+                    "muda_id": "MOT",
+                    "description": "Eliminates motion from unclear direction and rework"
+                  },
+                  {
+                    "muda_id": "DEF",
+                    "description": "Prevents defects from misaligned understanding"
+                  }
+                ],
+                "value_add_activity": [
+                  {
+                    "value_id": "TRA",
+                    "description": "Transforms analysis into guiding vision"
+                  }
+                ]
+              }
+            },
+            {
+              "step_id": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_004",
+              "step_name": "Define Measurable Objectives",
+              "step_sequence": 4,
+              "predecessor_step": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_003",
+              "subsequent_step": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_005",
+              "output": "Project Objectives List",
+              "stakeholder_assignments": {
+                "responsible": ["SCO.PLN_DEV", "SCO.PLN_ANA"],
+                "accountable": ["SCO.PLN_MET"],
+                "consulted": ["SCO.PLN_CRD"],
+                "informed": ["TIM.PLN_MET"]
+              },
+              "value_stream_justification": {
+                "is_value_added": true,
+                "customer_defined_value": "Measurable targets enabling progress monitoring and accountability",
+                "waste_elimination": [
+                  {
+                    "muda_id": "WAI",
+                    "description": "Eliminates waiting from unclear success criteria"
+                  },
+                  {
+                    "muda_id": "DEF",
+                    "description": "Prevents defects from unmeasurable goals"
+                  }
+                ],
+                "value_add_activity": [
+                  {
+                    "value_id": "CWP",
+                    "description": "Creates measurable value customers can track"
+                  }
+                ]
+              }
+            },
+            {
+              "step_id": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_005",
+              "step_name": "Validate with Stakeholders",
+              "step_sequence": 5,
+              "predecessor_step": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_004",
+              "subsequent_step": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_006",
+              "output": "Stakeholder Validation Feedback",
+              "stakeholder_assignments": {
+                "responsible": ["SCO.PLN_CRD"],
+                "accountable": ["SCO.PLN_MET"],
+                "consulted": ["SCO.PLN_DEV", "SCO.PLN_ANA"],
+                "informed": ["TIM.PLN_MET"]
+              },
+              "value_stream_justification": {
+                "is_value_added": false,
+                "customer_defined_value": "Stakeholder buy-in preventing future conflicts and changes",
+                "waste_elimination": [
+                  {
+                    "muda_id": "DEF",
+                    "description": "Prevents defects from stakeholder misalignment"
+                  },
+                  {
+                    "muda_id": "WAI",
+                    "description": "Eliminates waiting from later approvals"
+                  }
+                ],
+                "value_add_activity": [
+                  {
+                    "value_id": "DRF",
+                    "description": "Validates vision done right the first time"
+                  }
+                ]
+              }
+            },
+            {
+              "step_id": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_006",
+              "step_name": "Finalize Vision and Objectives Matrix",
+              "step_sequence": 6,
+              "predecessor_step": "OP_SCO.PLN_TIM.PLN_WF_001_STEP_005",
+              "subsequent_step": null,
+              "output": "Project Vision Statement and Objectives Matrix",
+              "stakeholder_assignments": {
+                "responsible": ["SCO.PLN_DEV"],
+                "accountable": ["SCO.PLN_MET"],
+                "consulted": ["SCO.PLN_ANA", "SCO.PLN_CRD"],
+                "informed": ["TIM.PLN_MET"]
+              },
+              "value_stream_justification": {
+                "is_value_added": true,
+                "customer_defined_value": "Finalized project foundation enabling all subsequent planning",
+                "waste_elimination": [
+                  {
+                    "muda_id": "OVE",
+                    "description": "Eliminates overproduction of planning documentation"
+                  },
+                  {
+                    "muda_id": "DEF",
+                    "description": "Prevents defects in downstream planning"
+                  }
+                ],
+                "value_add_activity": [
+                  {
+                    "value_id": "TRA",
+                    "description": "Transforms validated input into execution-ready foundation"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
