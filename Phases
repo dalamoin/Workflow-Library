@@ -3,27 +3,37 @@
     {
       "phase_id": "PLN",
       "name": "Planning",
-      "description": "Establish objectives, define scope, develop strategies, and create detailed plans with timelines and resource allocation"
+      "description": "Developing comprehensive project management plans that establish how the construction project will be executed, monitored, and controlled, including creating subsidiary plans for scope, schedule, cost, quality, resources, communications, risk, and procurement management.",
+      "success_criteria": "Project management plans are complete, realistic, and properly integrated, providing clear guidance for project execution and establishing baseline measurements for performance tracking.",
+      "business_rationale": "Prevents costly execution errors and rework by establishing clear roadmaps and baselines, enabling informed decision-making and proactive management throughout the project lifecycle."
     },
     {
       "phase_id": "EXE",
-      "name": "Execution", 
-      "description": "Implement planned activities, deploy resources, coordinate team efforts, and deliver planned outputs according to specifications"
+      "name": "Execution",
+      "description": "Performing the construction work defined in the project management plan by coordinating people and resources, managing stakeholder expectations, and integrating and performing project activities in accordance with established plans and procedures.",
+      "success_criteria": "Construction work is performed according to plans and specifications, with deliverables produced on schedule and team performance optimized through effective coordination and leadership.",
+      "business_rationale": "Transforms project plans into tangible results and value creation, directly impacting project outcomes and determining whether business objectives and client expectations are met."
     },
     {
       "phase_id": "MON",
       "name": "Monitoring",
-      "description": "Track progress against plans, measure performance indicators, collect data, and identify deviations from expected outcomes"
+      "description": "Systematically tracking, reviewing, and reporting project performance against the established baselines to provide stakeholders with visibility into project status and identify areas requiring management attention.",
+      "success_criteria": "Project performance is accurately measured and reported in a timely manner, with reliable data collection systems providing clear visibility into actual versus planned performance.",
+      "business_rationale": "Enables early detection of performance issues and trends, providing the information foundation necessary for effective decision-making and preventing small problems from becoming major failures."
     },
     {
       "phase_id": "CTL",
       "name": "Controlling",
-      "description": "Analyze performance gaps, implement corrective actions, adjust plans as needed, and manage changes to stay on track"
+      "description": "Analyzing performance data to identify variances from the plan, determining corrective or preventive actions, and implementing approved changes to bring the project back on track or improve future performance.",
+      "success_criteria": "Performance variances are promptly identified and addressed through effective corrective actions, with changes properly evaluated, approved, and implemented to maintain project alignment with objectives.",
+      "business_rationale": "Protects project success by ensuring deviations are corrected before they compound, maintaining project viability and preventing scope creep, schedule slippage, and cost overruns from derailing business objectives."
     },
     {
       "phase_id": "CLS",
-      "name": "Closure+",
-      "description": "Complete final deliverables, conduct performance reviews, document lessons learned, and formally conclude activities"
+      "name": "Closure",
+      "description": "Formally completing all project activities by finalizing deliverables, obtaining client acceptance, releasing resources, documenting lessons learned, and archiving project information for future reference.",
+      "success_criteria": "All project deliverables are completed and accepted, contracts are closed, resources are released, and knowledge is captured and transferred for organizational learning and future project improvement.",
+      "business_rationale": "Ensures contractual obligations are fulfilled and value is fully realized while capturing institutional knowledge that improves future project performance and reduces organizational risk."
     }
   ]
 }
