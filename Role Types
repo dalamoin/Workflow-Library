@@ -1,185 +1,628 @@
 {
   "role_types_dictionary": {
-    "Administrator": {
-      "role_id": "ADM",
-      "description": "Manages documentation, records, and administrative processes",
-      "primary_functions": ["documentation", "archival", "record_keeping", "administrative_support"],
-      "authority_level": "Support",
-      "decision_making": "Limited"
+    "Definer": {
+      "role_id": "DEF",
+      "description": "Defines project elements, processes, and standards",
+      "primary_functions": [
+        "project_vision_definition",
+        "objective_definition",
+        "deliverable_definition",
+        "requirement_definition",
+        "constraint_definition",
+        "process_definition",
+        "methodology_definition",
+        "guideline_definition",
+        "standard_definition",
+        "metric_definition",
+        "criteria_definition",
+        "calendar_definition",
+        "threshold_definition",
+        "category_definition",
+        "scale_definition",
+        "appetite_definition",
+        "unit_definition",
+        "source_definition"
+      ]
     },
-    "Analyst": {
-      "role_id": "ANA",
-      "description": "Analyzes data, identifies patterns, and provides insights for decision-making",
-      "primary_functions": ["data_analysis", "variance_analysis", "requirements_analysis", "performance_evaluation"],
-      "authority_level": "Specialist",
-      "decision_making": "Recommendation"
+    "Developer": {
+      "role_id": "DEV",
+      "description": "Develops plans, structures, and strategic frameworks",
+      "primary_functions": [
+        "plan_development",
+        "structure_development",
+        "baseline_development",
+        "strategy_development",
+        "framework_development",
+        "schedule_development",
+        "budget_development",
+        "response_development",
+        "approach_development",
+        "solution_development"
+      ]
     },
-    "Approver": {
-      "role_id": "APR",
-      "description": "Reviews and makes approval decisions on requests and changes",
-      "primary_functions": ["approval_decisions", "authorization", "gate_keeping", "compliance_verification"],
-      "authority_level": "Management",
-      "decision_making": "High"
+    "Identifier": {
+      "role_id": "IDN",
+      "description": "Identifies requirements, risks, stakeholders, and project elements",
+      "primary_functions": [
+        "requirement_identification",
+        "constraint_identification",
+        "stakeholder_identification",
+        "resource_identification",
+        "risk_identification",
+        "variance_identification",
+        "issue_identification",
+        "opportunity_identification",
+        "trend_identification",
+        "deviation_identification",
+        "overallocation_identification",
+        "underutilization_identification",
+        "conflict_identification",
+        "cause_identification"
+      ]
     },
-    "Authorizer": {
-      "role_id": "AUT",
-      "description": "Provides authorization for expenditures, actions, and resources",
-      "primary_functions": ["expenditure_authorization", "action_approval", "resource_authorization", "permission_granting"],
-      "authority_level": "Management",
-      "decision_making": "High"
-    },
-    "Auditor": {
-      "role_id": "AUD",
-      "description": "Conducts audits and assessments for compliance and quality",
-      "primary_functions": ["compliance_auditing", "quality_auditing", "process_auditing", "performance_auditing"],
-      "authority_level": "Specialist",
-      "decision_making": "Recommendation"
-    },
-    "Collector": {
-      "role_id": "COL",
-      "description": "Gathers and compiles information, data, and requirements",
-      "primary_functions": ["data_collection", "information_gathering", "requirement_compilation", "input_aggregation"],
-      "authority_level": "Support",
-      "decision_making": "Limited"
-    },
-    "Communicator": {
-      "role_id": "COM",
-      "description": "Manages communication channels and information dissemination",
-      "primary_functions": ["information_dissemination", "stakeholder_communication", "reporting", "messaging"],
-      "authority_level": "Support",
-      "decision_making": "Limited"
-    },
-    "Coordinator": {
-      "role_id": "CRD",
-      "description": "Coordinates activities, resources, and stakeholder interactions",
-      "primary_functions": ["activity_coordination", "resource_coordination", "stakeholder_coordination", "process_facilitation"],
-      "authority_level": "Operational",
-      "decision_making": "Moderate"
+    "Establisher": {
+      "role_id": "EST",
+      "description": "Establishes systems, processes, and organizational structures",
+      "primary_functions": [
+        "system_establishment",
+        "process_establishment",
+        "baseline_establishment",
+        "board_establishment",
+        "threshold_establishment",
+        "reserve_establishment",
+        "requirement_establishment"
+      ]
     },
     "Creator": {
       "role_id": "CRT",
       "description": "Creates deliverables, documents, and project artifacts",
-      "primary_functions": ["deliverable_creation", "document_development", "artifact_generation", "output_production"],
-      "authority_level": "Specialist",
-      "decision_making": "Moderate"
+      "primary_functions": [
+        "statement_creation",
+        "structure_creation",
+        "dictionary_creation",
+        "matrix_creation",
+        "deliverable_creation",
+        "document_creation",
+        "artifact_creation"
+      ]
     },
-    "Developer": {
-      "role_id": "DEV",
-      "description": "Develops plans, strategies, and methodological frameworks",
-      "primary_functions": ["plan_development", "strategy_formulation", "methodology_creation", "framework_design"],
-      "authority_level": "Specialist",
-      "decision_making": "Moderate"
+    "Collector": {
+      "role_id": "COL",
+      "description": "Collects and gathers information, requirements, and data",
+      "primary_functions": [
+        "requirement_collection",
+        "data_collection",
+        "information_collection",
+        "feedback_collection",
+        "input_collection"
+      ]
+    },
+    "Sequencer": {
+      "role_id": "SEQ",
+      "description": "Sequences activities and determines dependencies",
+      "primary_functions": [
+        "activity_sequencing",
+        "dependency_determination",
+        "ordering_activities",
+        "workflow_sequencing"
+      ]
     },
     "Estimator": {
-      "role_id": "EST",
-      "description": "Provides estimates for duration, cost, effort, and resource requirements",
-      "primary_functions": ["duration_estimation", "cost_estimation", "effort_estimation", "resource_estimation"],
-      "authority_level": "Specialist",
-      "decision_making": "Recommendation"
+      "role_id": "EMA",
+      "description": "Estimates durations, costs, and resource requirements",
+      "primary_functions": [
+        "duration_estimation",
+        "cost_estimation",
+        "resource_estimation",
+        "effort_estimation",
+        "completion_estimation"
+      ]
     },
-    "Evaluator": {
-      "role_id": "EVA",
-      "description": "Evaluates performance, effectiveness, and compliance",
-      "primary_functions": ["performance_evaluation", "effectiveness_assessment", "compliance_evaluation", "quality_assessment"],
-      "authority_level": "Specialist",
-      "decision_making": "Recommendation"
+    "Decomposer": {
+      "role_id": "DEC",
+      "description": "Breaks down complex elements into manageable components",
+      "primary_functions": [
+        "scope_decomposition",
+        "work_decomposition",
+        "structure_decomposition",
+        "component_breakdown"
+      ]
     },
-    "Executor": {
-      "role_id": "EXE",
-      "description": "Executes plans, strategies, and operational activities",
-      "primary_functions": ["plan_execution", "strategy_implementation", "operational_delivery", "activity_performance"],
-      "authority_level": "Operational",
-      "decision_making": "Moderate"
+    "Obtainer": {
+      "role_id": "OBT",
+      "description": "Obtains approvals, acceptance, and sign-offs",
+      "primary_functions": [
+        "approval_obtaining",
+        "acceptance_obtaining",
+        "sign_off_obtaining",
+        "authorization_obtaining"
+      ]
     },
-    "Forecaster": {
-      "role_id": "FOR",
-      "description": "Provides forecasts and projections for future performance",
-      "primary_functions": ["performance_forecasting", "trend_projection", "future_state_prediction", "projection_analysis"],
-      "authority_level": "Specialist",
-      "decision_making": "Recommendation"
-    },
-    "Manager": {
-      "role_id": "MGR",
-      "description": "Manages teams, processes, and organizational resources",
-      "primary_functions": ["team_management", "process_management", "resource_management", "strategic_oversight"],
-      "authority_level": "Management",
-      "decision_making": "High"
-    },
-    "Mediator": {
-      "role_id": "MED",
-      "description": "Mediates conflicts and facilitates resolution between parties",
-      "primary_functions": ["conflict_resolution", "negotiation_facilitation", "dispute_mediation", "relationship_repair"],
-      "authority_level": "Specialist",
-      "decision_making": "Moderate"
-    },
-    "Methodologist": {
-      "role_id": "MET",
-      "description": "Establishes methodologies, standards, and systematic approaches",
-      "primary_functions": ["methodology_establishment", "standards_definition", "systematic_approach_design", "best_practice_development"],
-      "authority_level": "Strategic",
-      "decision_making": "High"
-    },
-    "Monitor": {
-      "role_id": "MON",
-      "description": "Monitors performance, progress, and compliance indicators",
-      "primary_functions": ["performance_monitoring", "progress_tracking", "compliance_monitoring", "indicator_surveillance"],
-      "authority_level": "Support",
-      "decision_making": "Limited"
-    },
-    "Negotiator": {
-      "role_id": "NEG",
-      "description": "Negotiates agreements, contracts, and resolutions",
-      "primary_functions": ["contract_negotiation", "agreement_facilitation", "terms_negotiation", "deal_structuring"],
-      "authority_level": "Specialist",
-      "decision_making": "Moderate"
-    },
-    "Planner": {
-      "role_id": "PLN",
-      "description": "Plans activities, resources, and strategic initiatives",
-      "primary_functions": ["activity_planning", "resource_planning", "strategic_planning", "schedule_development"],
-      "authority_level": "Specialist",
-      "decision_making": "Moderate"
+    "Communicator": {
+      "role_id": "COM",
+      "description": "Communicates information and updates to stakeholders",
+      "primary_functions": [
+        "baseline_communication",
+        "update_communication",
+        "information_communication",
+        "status_communication",
+        "performance_communication"
+      ]
     },
     "Processor": {
       "role_id": "PRC",
-      "description": "Processes requests, transactions, and operational workflows",
-      "primary_functions": ["request_processing", "transaction_processing", "workflow_execution", "operational_processing"],
-      "authority_level": "Support",
-      "decision_making": "Limited"
+      "description": "Processes requests, changes, and transactions",
+      "primary_functions": [
+        "change_processing",
+        "request_processing",
+        "invoice_processing",
+        "payment_processing",
+        "transaction_processing"
+      ]
     },
-    "Reviewer": {
-      "role_id": "REV",
-      "description": "Reviews deliverables, processes, and compliance for quality and accuracy",
-      "primary_functions": ["deliverable_review", "process_review", "compliance_review", "quality_verification"],
-      "authority_level": "Specialist",
-      "decision_making": "Recommendation"
+    "Assigner": {
+      "role_id": "ASG",
+      "description": "Assigns resources and responsibilities to activities",
+      "primary_functions": [
+        "resource_assignment",
+        "responsibility_assignment",
+        "activity_assignment",
+        "task_assignment"
+      ]
     },
-    "Specialist": {
-      "role_id": "SPC",
-      "description": "Provides specialized expertise in specific technical or functional domains",
-      "primary_functions": ["technical_expertise", "specialized_knowledge", "domain_expertise", "expert_consultation"],
-      "authority_level": "Specialist",
-      "decision_making": "Moderate"
+    "Director": {
+      "role_id": "DIR",
+      "description": "Directs and manages project work execution",
+      "primary_functions": [
+        "work_direction",
+        "project_management",
+        "execution_management",
+        "activity_direction"
+      ]
     },
-    "Strategist": {
-      "role_id": "STR",
-      "description": "Develops strategic approaches and long-term planning initiatives",
-      "primary_functions": ["strategic_development", "long_term_planning", "strategic_analysis", "approach_formulation"],
-      "authority_level": "Strategic",
-      "decision_making": "High"
+    "Updater": {
+      "role_id": "UPD",
+      "description": "Updates progress, status, and project information",
+      "primary_functions": [
+        "progress_updating",
+        "status_updating",
+        "schedule_updating",
+        "budget_updating",
+        "information_updating",
+        "baseline_updating"
+      ]
+    },
+    "Implementer": {
+      "role_id": "IMP",
+      "description": "Implements changes, actions, and planned activities",
+      "primary_functions": [
+        "change_implementation",
+        "action_implementation",
+        "process_implementation",
+        "strategy_implementation",
+        "response_implementation",
+        "improvement_implementation"
+      ]
     },
     "Tracker": {
       "role_id": "TRK",
-      "description": "Tracks progress, changes, and performance metrics",
-      "primary_functions": ["progress_tracking", "change_tracking", "metric_tracking", "status_monitoring"],
-      "authority_level": "Support",
-      "decision_making": "Limited"
+      "description": "Tracks progress, dates, costs, and performance metrics",
+      "primary_functions": [
+        "progress_tracking",
+        "date_tracking",
+        "cost_tracking",
+        "expenditure_tracking",
+        "performance_tracking",
+        "utilization_tracking",
+        "consumption_tracking",
+        "effectiveness_tracking",
+        "status_tracking"
+      ]
+    },
+    "Monitor": {
+      "role_id": "MON",
+      "description": "Monitors performance, adherence, and compliance",
+      "primary_functions": [
+        "performance_monitoring",
+        "adherence_monitoring",
+        "compliance_monitoring",
+        "variance_monitoring",
+        "baseline_monitoring",
+        "exposure_monitoring",
+        "condition_monitoring",
+        "engagement_monitoring",
+        "morale_monitoring",
+        "inventory_monitoring"
+      ]
+    },
+    "Analyzer": {
+      "role_id": "ANZ",
+      "description": "Analyzes data, variances, and performance information",
+      "primary_functions": [
+        "variance_analysis",
+        "performance_analysis",
+        "stakeholder_analysis",
+        "risk_analysis",
+        "cost_analysis",
+        "schedule_analysis",
+        "data_analysis",
+        "control_analysis",
+        "lessons_learned_analysis"
+      ]
+    },
+    "Reviewer": {
+      "role_id": "REV",
+      "description": "Reviews progress, requests, and project elements",
+      "primary_functions": [
+        "progress_review",
+        "request_review",
+        "change_review",
+        "performance_review",
+        "process_review",
+        "reserve_review"
+      ]
+    },
+    "Evaluator": {
+      "role_id": "EVA",
+      "description": "Evaluates requests, performance, and effectiveness",
+      "primary_functions": [
+        "request_evaluation",
+        "performance_evaluation",
+        "effectiveness_evaluation",
+        "relationship_evaluation"
+      ]
+    },
+    "Manager": {
+      "role_id": "MGR",
+      "description": "Manages resources, teams, and organizational processes",
+      "primary_functions": [
+        "team_management",
+        "resource_management",
+        "change_management",
+        "reserve_management",
+        "contract_management",
+        "performance_management",
+        "expectation_management",
+        "issue_management"
+      ]
+    },
+    "Integrator": {
+      "role_id": "INT",
+      "description": "Integrates changes and updates into project systems",
+      "primary_functions": [
+        "change_integration",
+        "update_integration",
+        "system_integration",
+        "document_integration"
+      ]
+    },
+    "Preventer": {
+      "role_id": "PRV",
+      "description": "Prevents unauthorized work and scope creep",
+      "primary_functions": [
+        "unauthorized_work_prevention",
+        "scope_creep_prevention",
+        "deviation_prevention"
+      ]
+    },
+    "Addresser": {
+      "role_id": "ADR",
+      "description": "Addresses issues, conflicts, and problems",
+      "primary_functions": [
+        "issue_addressing",
+        "conflict_addressing",
+        "problem_addressing",
+        "variance_addressing"
+      ]
+    },
+    "Validator": {
+      "role_id": "VAL",
+      "description": "Validates scope, deliverables, and compliance",
+      "primary_functions": [
+        "scope_validation",
+        "deliverable_validation",
+        "compliance_validation",
+        "standard_validation"
+      ]
+    },
+    "Performer": {
+      "role_id": "PFR",
+      "description": "Performs activities, analysis, and project work",
+      "primary_functions": [
+        "activity_performance",
+        "analysis_performance",
+        "work_performance",
+        "evaluation_performance"
+      ]
+    },
+    "Archiver": {
+      "role_id": "ARC",
+      "description": "Archives documentation and project records",
+      "primary_functions": [
+        "documentation_archiving",
+        "record_archiving",
+        "log_archiving",
+        "plan_archiving"
+      ]
+    },
+    "Documenter": {
+      "role_id": "DOC",
+      "description": "Documents lessons learned, changes, and project information",
+      "primary_functions": [
+        "lessons_learned_documentation",
+        "change_documentation",
+        "variance_documentation",
+        "issue_documentation"
+      ]
+    },
+    "Securer": {
+      "role_id": "SEC",
+      "description": "Secures funding and resources for project execution",
+      "primary_functions": [
+        "funding_securing",
+        "resource_securing"
+      ]
+    },
+    "Authorizer": {
+      "role_id": "AUT",
+      "description": "Authorizes expenditures and project activities",
+      "primary_functions": [
+        "expenditure_authorization",
+        "activity_authorization"
+      ]
+    },
+    "Forecaster": {
+      "role_id": "FOR",
+      "description": "Forecasts completion estimates and future performance",
+      "primary_functions": [
+        "completion_forecasting",
+        "performance_forecasting",
+        "estimate_forecasting"
+      ]
+    },
+    "Finalizer": {
+      "role_id": "FIN",
+      "description": "Finalizes accounts, processes, and project closure activities",
+      "primary_functions": [
+        "account_finalization",
+        "process_finalization",
+        "closure_finalization"
+      ]
+    },
+    "Releaser": {
+      "role_id": "REL",
+      "description": "Releases funds, resources, and team members",
+      "primary_functions": [
+        "fund_release",
+        "resource_release",
+        "team_release"
+      ]
+    },
+    "Closer": {
+      "role_id": "CLS",
+      "description": "Closes contracts, accounts, and project activities",
+      "primary_functions": [
+        "contract_closure",
+        "account_closure",
+        "activity_closure"
+      ]
+    },
+    "Applier": {
+      "role_id": "APL",
+      "description": "Applies standards, methodologies, and quality processes",
+      "primary_functions": [
+        "standard_application",
+        "methodology_application",
+        "process_application"
+      ]
+    },
+    "Planner": {
+      "role_id": "PLN",
+      "description": "Plans activities, processes, and strategic initiatives",
+      "primary_functions": [
+        "activity_planning",
+        "process_planning",
+        "strategic_planning",
+        "acquisition_planning"
+      ]
+    },
+    "Determiner": {
+      "role_id": "DET",
+      "description": "Determines methods, causes, and requirements",
+      "primary_functions": [
+        "method_determination",
+        "cause_determination",
+        "requirement_determination"
+      ]
+    },
+    "Acquirer": {
+      "role_id": "ACQ",
+      "description": "Acquires team members, resources, and materials",
+      "primary_functions": [
+        "team_acquisition",
+        "resource_acquisition",
+        "material_acquisition"
+      ]
+    },
+    "Procurer": {
+      "role_id": "PRO",
+      "description": "Procures materials, equipment, and external services",
+      "primary_functions": [
+        "material_procurement",
+        "equipment_procurement",
+        "service_procurement"
+      ]
+    },
+    "Conductor": {
+      "role_id": "CON",
+      "description": "Conducts procurements, analysis, and formal processes",
+      "primary_functions": [
+        "procurement_conducting",
+        "analysis_conducting",
+        "process_conducting"
+      ]
+    },
+    "Selector": {
+      "role_id": "SEL",
+      "description": "Selects sellers, vendors, and project options",
+      "primary_functions": [
+        "seller_selection",
+        "vendor_selection",
+        "option_selection"
+      ]
+    },
+    "Awarder": {
+      "role_id": "AWD",
+      "description": "Awards contracts and recognizes contributions",
+      "primary_functions": [
+        "contract_awarding",
+        "recognition_awarding"
+      ]
+    },
+    "Administrator": {
+      "role_id": "ADM",
+      "description": "Administers contracts and manages vendor relationships",
+      "primary_functions": [
+        "contract_administration",
+        "vendor_administration"
+      ]
     },
     "Allocator": {
       "role_id": "ALL",
-      "description": "Allocates resources and assigns responsibilities",
-      "primary_functions": ["resource_allocation", "responsibility_assignment", "workload_distribution", "capacity_planning"],
-      "authority_level": "Operational",
-      "decision_making": "Moderate"
+      "description": "Allocates resources and distributes workload",
+      "primary_functions": [
+        "resource_allocation",
+        "workload_allocation"
+      ]
+    },
+    "Resolver": {
+      "role_id": "RES",
+      "description": "Resolves disputes, issues, and conflicts",
+      "primary_functions": [
+        "dispute_resolution",
+        "issue_resolution",
+        "conflict_resolution"
+      ]
+    },
+    "Ensurer": {
+      "role_id": "ENS",
+      "description": "Ensures availability, management, and compliance",
+      "primary_functions": [
+        "availability_ensuring",
+        "management_ensuring",
+        "compliance_ensuring"
+      ]
+    },
+    "Negotiator": {
+      "role_id": "NEG",
+      "description": "Negotiates changes, agreements, and resolutions",
+      "primary_functions": [
+        "change_negotiation",
+        "agreement_negotiation",
+        "resolution_negotiation"
+      ]
+    },
+    "Prioritizer": {
+      "role_id": "PRI",
+      "description": "Prioritizes risks and project elements",
+      "primary_functions": [
+        "risk_prioritization",
+        "element_prioritization"
+      ]
+    },
+    "Recommender": {
+      "role_id": "REC",
+      "description": "Recommends actions, improvements, and solutions",
+      "primary_functions": [
+        "action_recommendation",
+        "improvement_recommendation",
+        "solution_recommendation"
+      ]
+    },
+    "Logger": {
+      "role_id": "LOG",
+      "description": "Logs defects, issues, and project information",
+      "primary_functions": [
+        "defect_logging",
+        "issue_logging",
+        "information_logging"
+      ]
+    },
+    "Executer": {
+      "role_id": "EXC",
+      "description": "Executes plans, responses, and contingency actions",
+      "primary_functions": [
+        "plan_execution",
+        "response_execution",
+        "contingency_execution"
+      ]
+    },
+    "Fosterer": {
+      "role_id": "FOS",
+      "description": "Fosters collaborative environments and relationships",
+      "primary_functions": [
+        "collaboration_fostering",
+        "relationship_fostering"
+      ]
+    },
+    "Listener": {
+      "role_id": "LIS",
+      "description": "Listens to stakeholder feedback and concerns",
+      "primary_functions": [
+        "feedback_listening",
+        "concern_listening"
+      ]
+    },
+    "Escalator": {
+      "role_id": "ESC",
+      "description": "Escalates issues and conflicts through defined processes",
+      "primary_functions": [
+        "issue_escalation",
+        "conflict_escalation"
+      ]
+    },
+    "Assessor": {
+      "role_id": "ASS",
+      "description": "Assesses effectiveness, engagement, and performance",
+      "primary_functions": [
+        "effectiveness_assessment",
+        "engagement_assessment",
+        "performance_assessment"
+      ]
+    },
+    "Adjuster": {
+      "role_id": "ADJ",
+      "description": "Adjusts strategies, approaches, and project elements",
+      "primary_functions": [
+        "strategy_adjustment",
+        "approach_adjustment",
+        "element_adjustment"
+      ]
+    },
+    "Provider": {
+      "role_id": "PRV",
+      "description": "Provides information, estimates, and responses",
+      "primary_functions": [
+        "information_provision",
+        "estimate_provision",
+        "response_provision"
+      ]
+    },
+    "Mediator": {
+      "role_id": "MED",
+      "description": "Mediates between conflicting parties and interests",
+      "primary_functions": [
+        "conflict_mediation",
+        "party_mediation"
+      ]
+    },
+    "Recognizer": {
+      "role_id": "RGZ",
+      "description": "Recognizes contributions and achievements",
+      "primary_functions": [
+        "contribution_recognition",
+        "achievement_recognition"
+      ]
     }
   }
+}
