@@ -31,7 +31,7 @@
     {
       "function_id": "RSC",
       "name": "Resource Management",
-      "description": "Securing and optimizing the deployment of all project resources including labor, materials, equipment, and subcontractors to ensure adequate availability and efficient utilization throughout the construction process.",
+      "description": "Securing and optimizing the deployment of all project resources including labor, materials, equipment, and downstream collaborators to ensure adequate availability and efficient utilization throughout the construction process.",
       "success_criteria": "Required resources are available when needed and utilized efficiently, with minimal waste, delays, or conflicts in resource allocation and deployment.",
       "business_rationale": "Maximizes productivity and minimizes idle time while controlling resource costs and ensuring project continuity through effective resource planning and allocation."
     },
