@@ -1,0 +1,249 @@
+{
+  "Operations": [
+    {
+      "name": "Scope Planning",
+      "description": "Define project vision, objectives, and high-level deliverables. Identify initial project requirements and constraints. Develop a Scope Management Plan (how scope will be defined, validated, and controlled). Establish the Work Breakdown Structure (WBS) methodology and guidelines. Define the process for formal scope validation. Set up the change control process, including the change control board (CCB) and approval thresholds.",
+      "super_operation_id": "SCO.PLN",
+      "function_id": "SCO",
+      "phase_id": "PLN"
+    },
+    {
+      "name": "Scope Execution",
+      "description": "Collect detailed requirements from stakeholders. Decompose the project scope into a detailed Work Breakdown Structure (WBS) and WBS Dictionary. Create the formal Project Scope Statement. Obtain formal acceptance of the Scope Baseline from relevant stakeholders. Communicate the approved scope baseline to all project team members and key stakeholders. Process approved changes to the scope baseline as per the change control system.",
+      "super_operation_id": "SCO.EXE",
+      "function_id": "SCO",
+      "phase_id": "EXE"
+    },
+    {
+      "name": "Scope Monitoring",
+      "description": "Regularly review project progress against the approved Scope Baseline. Track and document all proposed changes to the project scope. Identify potential instances of scope creep or unauthorized work. Monitor adherence to the established change control process.",
+      "super_operation_id": "SCO.MON",
+      "function_id": "SCO",
+      "phase_id": "MON"
+    },
+    {
+      "name": "Scope Control",
+      "description": "Review and evaluate all change requests through the change control process (e.g., Change Control Board review). Approve or reject scope change requests. Manage and integrate approved scope changes into the WBS, project plan, and relevant documents. Prevent unauthorized work and address instances of scope creep. Re-baseline the scope if significant approved changes necessitate it.",
+      "super_operation_id": "SCO.CTL",
+      "function_id": "SCO",
+      "phase_id": "CTL"
+    },
+    {
+      "name": "Scope Closure",
+      "description": "Conduct final validation of the project scope with stakeholders (e.g., acceptance of deliverables). Obtain formal sign-off on the completed project scope. Perform a lessons learned analysis related to scope definition and control. Archive all scope-related documentation (e.g., scope statement, WBS, change logs).",
+      "super_operation_id": "SCO.CLS",
+      "function_id": "SCO",
+      "phase_id": "CLS"
+    },
+    {
+      "name": "Time Planning",
+      "description": "Define activities required to complete the work packages identified in the WBS. Sequence activities and determine dependencies. Estimate activity durations using appropriate techniques (e.g., expert judgment, three-point estimating). Develop the project schedule using scheduling tools (e.g., Gantt charts, network diagrams). Define the scheduling methodology and calendar. Establish the Schedule Baseline.",
+      "super_operation_id": "TIM.PLN",
+      "function_id": "TIM",
+      "phase_id": "PLN"
+    },
+    {
+      "name": "Time Execution",
+      "description": "Assign resources to scheduled activities. Direct and manage project work according to the schedule. Update activity progress and remaining duration. Implement approved schedule changes.",
+      "super_operation_id": "TIM.EXE",
+      "function_id": "TIM",
+      "phase_id": "EXE"
+    },
+    {
+      "name": "Time Monitoring",
+      "description": "Track actual start and finish dates of activities. Monitor progress against the Schedule Baseline (e.g., Earned Value Management for schedule). Identify schedule variances (e.g., delays, early finishes). Monitor critical path activities closely.",
+      "super_operation_id": "TIM.MON",
+      "function_id": "TIM",
+      "phase_id": "MON"
+    },
+    {
+      "name": "Time Control",
+      "description": "Analyze schedule variances to determine root causes. Implement corrective actions (e.g., crashing, fast-tracking, re-sequencing) to bring the project back on track. Manage schedule change requests through the change control process. Update and re-baseline the schedule if significant approved changes occur. Communicate schedule updates to stakeholders.",
+      "super_operation_id": "TIM.CTL",
+      "function_id": "TIM",
+      "phase_id": "CTL"
+    },
+    {
+      "name": "Time Closure",
+      "description": "Obtain final acceptance of project completion. Perform final analysis of schedule performance. Document lessons learned regarding time estimation, scheduling, and control. Archive all schedule-related documentation.",
+      "super_operation_id": "TIM.CLS",
+      "function_id": "TIM",
+      "phase_id": "CLS"
+    },
+    {
+      "name": "Cost Planning",
+      "description": "Define the Cost Management Plan (how costs will be planned, estimated, budgeted, and controlled). Determine cost estimation methods and tools. Establish units of measure for costs. Set up funding requirements and sources. Define cost baseline creation and control processes.",
+      "super_operation_id": "CST.PLN",
+      "function_id": "CST",
+      "phase_id": "PLN"
+    },
+    {
+      "name": "Cost Execution",
+      "description": "Secure funding as planned. Authorize expenditures based on the approved budget. Track actual project expenditures. Process invoices and payments. Manage contingency and management reserves.",
+      "super_operation_id": "CST.EXE",
+      "function_id": "CST",
+      "phase_id": "EXE"
+    },
+    {
+      "name": "Cost Monitoring",
+      "description": "Track actual costs incurred against the Cost Baseline. Perform earned value analysis (EVA) to monitor cost performance (e.g., CPI, CV). Forecast Estimate-to-Complete (ETC) and Estimate-at-Completion (EAC) regularly. Identify cost variances and deviations from the budget.",
+      "super_operation_id": "CST.MON",
+      "function_id": "CST",
+      "phase_id": "MON"
+    },
+    {
+      "name": "Cost Control",
+      "description": "Analyze cost variances and identify root causes. Implement corrective actions to bring costs back within budget. Manage cost change requests through the change control process. Update and re-baseline the budget if significant approved changes occur. Communicate cost performance to stakeholders.",
+      "super_operation_id": "CST.CTL",
+      "function_id": "CST",
+      "phase_id": "CTL"
+    },
+    {
+      "name": "Cost Closure",
+      "description": "Finalize all project financial accounts. Conduct a final cost performance analysis against the baseline. Release project funds and close contracts. Document lessons learned related to cost estimating, budgeting, and control. Archive all financial documentation.",
+      "super_operation_id": "CST.CLS",
+      "function_id": "CST",
+      "phase_id": "CLS"
+    },
+    {
+      "name": "Quality Planning",
+      "description": "Identify relevant quality requirements and standards for the project and deliverables. Develop a Quality Management Plan (how quality will be managed, assured, and controlled). Define quality metrics and acceptance criteria. Plan for quality assurance activities (e.g., audits, process reviews). Plan for quality control activities (e.g., inspections, testing).",
+      "super_operation_id": "QLT.PLN",
+      "function_id": "QLT",
+      "phase_id": "PLN"
+    },
+    {
+      "name": "Quality Execution",
+      "description": "Implement quality assurance processes throughout the project lifecycle. Apply the planned quality standards and methodologies to project work. Create quality deliverables as per specifications. Perform required quality control activities (e.g., testing, inspections) on work results and deliverables.",
+      "super_operation_id": "QLT.EXE",
+      "function_id": "QLT",
+      "phase_id": "EXE"
+    },
+    {
+      "name": "Quality Monitoring",
+      "description": "Track performance against quality metrics. Collect data from quality control activities (e.g., defect rates, test results). Monitor quality assurance activities and process adherence. Identify trends in quality performance.",
+      "super_operation_id": "QLT.MON",
+      "function_id": "QLT",
+      "phase_id": "MON"
+    },
+    {
+      "name": "Quality Control",
+      "description": "Analyze quality control data to identify defects and deviations. Recommend and implement corrective actions for non-conformances. Recommend process improvements based on quality assurance findings. Ensure all defects are logged, tracked, and resolved. Validate that resolved issues meet quality standards.",
+      "super_operation_id": "QLT.CTL",
+      "function_id": "QLT",
+      "phase_id": "CTL"
+    },
+    {
+      "name": "Quality Closure",
+      "description": "Obtain formal acceptance of deliverables from a quality perspective. Conduct a final quality audit of the project and its outcomes. Document lessons learned related to quality planning, assurance, and control. Archive all quality-related documentation (e.g., test plans, results, defect logs).",
+      "super_operation_id": "QLT.CLS",
+      "function_id": "QLT",
+      "phase_id": "CLS"
+    },
+    {
+      "name": "Resource Planning",
+      "description": "Identify all required human, material, equipment, and facility resources. Develop a Resource Management Plan (how resources will be identified, acquired, managed, and released). Develop a Procurement Management Plan (how external goods/services will be acquired). Create a Responsibility Assignment Matrix (RAM) and roles/responsibilities. Estimate resource requirements for activities. Plan for resource acquisition strategies (e.g., internal hiring, external contracting).",
+      "super_operation_id": "RSC.PLN",
+      "function_id": "RSC",
+      "phase_id": "PLN"
+    },
+    {
+      "name": "Resource Execution",
+      "description": "Acquire the necessary project team members. Procure materials, equipment, and facilities as planned. Conduct procurements (e.g., solicit bids, select sellers, award contracts). Manage and develop the project team (e.g., training, team-building). Administer contracts with external vendors/suppliers. Allocate and assign resources to activities.",
+      "super_operation_id": "RSC.EXE",
+      "function_id": "RSC",
+      "phase_id": "EXE"
+    },
+    {
+      "name": "Resource Monitoring",
+      "description": "Track resource availability and utilization. Monitor team performance and morale. Monitor contractor performance and adherence to contract terms. Track inventory and material consumption. Identify resource overallocation or underutilization.",
+      "super_operation_id": "RSC.MON",
+      "function_id": "RSC",
+      "phase_id": "MON"
+    },
+    {
+      "name": "Resource Control",
+      "description": "Address resource conflicts and overloads. Implement changes to resource assignments or acquisitions as needed. Manage performance issues with team members or contractors. Negotiate changes or resolve disputes with vendors. Ensure physical resources (materials, equipment) are available and managed efficiently. Manage approved procurement changes.",
+      "super_operation_id": "RSC.CTL",
+      "function_id": "RSC",
+      "phase_id": "CTL"
+    },
+    {
+      "name": "Resource Closure",
+      "description": "Release project team members and other resources upon completion of their tasks. Close out all contracts with vendors/suppliers. Conduct performance evaluations for project team members. Perform a lessons learned analysis on resource acquisition, management, and procurement. Archive all resource and procurement documentation.",
+      "super_operation_id": "RSC.CLS",
+      "function_id": "RSC",
+      "phase_id": "CLS"
+    },
+    {
+      "name": "Risk Planning",
+      "description": "Define the Risk Management Plan (how risks will be identified, analyzed, responded to, and monitored). Determine risk categories, definitions, and probability/impact scales. Establish risk thresholds and risk appetite. Plan for contingency and management reserves.",
+      "super_operation_id": "RSK.PLN",
+      "function_id": "RSK",
+      "phase_id": "PLN"
+    },
+    {
+      "name": "Risk Execution",
+      "description": "Conduct risk identification activities (e.g., brainstorming, root cause analysis, SWOT analysis). Perform qualitative risk analysis to prioritize risks. Perform quantitative risk analysis (if applicable) to estimate numerical impact. Develop risk response strategies (e.g., mitigation, avoidance, transfer, acceptance for threats; exploitation, enhancement, sharing for opportunities). Implement agreed-upon risk responses.",
+      "super_operation_id": "RSK.EXE",
+      "function_id": "RSK",
+      "phase_id": "EXE"
+    },
+    {
+      "name": "Risk Monitoring",
+      "description": "Regularly monitor identified risks for changes in status or impact. Track the effectiveness of implemented risk responses. Identify new risks as they emerge throughout the project. Monitor trigger conditions for contingent responses. Monitor remaining risk exposure.",
+      "super_operation_id": "RSK.MON",
+      "function_id": "RSK",
+      "phase_id": "MON"
+    },
+    {
+      "name": "Risk Control",
+      "description": "Evaluate the effectiveness of risk responses and adjust as needed. Execute contingency plans when trigger conditions are met. Update the risk register with new risks, changes in status, and response effectiveness. Review and adjust contingency reserves based on changing risk profiles. Communicate risk status and issues to stakeholders.",
+      "super_operation_id": "RSK.CTL",
+      "function_id": "RSK",
+      "phase_id": "CTL"
+    },
+    {
+      "name": "Risk Closure",
+      "description": "Review overall project risk performance. Document lessons learned from risk management activities (e.g., effectiveness of strategies, accuracy of assessments). Close out any open risks or residual risks. Archive risk management documentation.",
+      "super_operation_id": "RSK.CLS",
+      "function_id": "RSK",
+      "phase_id": "CLS"
+    },
+    {
+      "name": "Relationship Planning",
+      "description": "Identify all potential project stakeholders. Conduct a stakeholder analysis to understand interests, influence, expectations, and potential impact. Develop a Stakeholder Engagement Plan (how stakeholders will be engaged and managed throughout the project). Develop a Communication Management Plan (what, when, how, and by whom information will be communicated). Define processes for conflict resolution and issue management.",
+      "super_operation_id": "REL.PLN",
+      "function_id": "REL",
+      "phase_id": "PLN"
+    },
+    {
+      "name": "Relationship Execution",
+      "description": "Implement planned communication activities (e.g., meetings, reports, informal updates). Engage stakeholders through planned interactions and involvement in project activities. Foster a collaborative team environment. Actively listen to stakeholder feedback and concerns. Document and escalate issues or conflicts as per the defined process.",
+      "super_operation_id": "REL.EXE",
+      "function_id": "REL",
+      "phase_id": "EXE"
+    },
+    {
+      "name": "Relationship Monitoring",
+      "description": "Monitor stakeholder engagement levels and attitudes. Assess the effectiveness of communication activities. Track the status of identified issues and conflicts. Monitor for new stakeholders or changes in existing stakeholder influence/interests. Evaluate the overall effectiveness of relationship-building efforts.",
+      "super_operation_id": "REL.MON",
+      "function_id": "REL",
+      "phase_id": "MON"
+    },
+    {
+      "name": "Relationship Control",
+      "description": "Adjust communication strategies and engagement approaches based on monitoring results. Address and resolve stakeholder conflicts and issues promptly and effectively. Manage stakeholder expectations by providing accurate and timely information. Implement corrective actions to improve stakeholder relationships if they become strained. Negotiate and mediate between conflicting parties.",
+      "super_operation_id": "REL.CTL",
+      "function_id": "REL",
+      "phase_id": "CTL"
+    },
+    {
+      "name": "Relationship Closure",
+      "description": "Conduct final communication with all stakeholders regarding project completion. Obtain final stakeholder sign-off and acceptance where required. Perform a lessons learned analysis on stakeholder engagement and communication. Formally recognize stakeholder contributions. Archive all communication and stakeholder engagement plans/logs.",
+      "super_operation_id": "REL.CLS",
+      "function_id": "REL",
+      "phase_id": "CLS"
+    }
+  ]
+}
