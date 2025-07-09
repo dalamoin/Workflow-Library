@@ -1,5 +1,5 @@
 {
-  "ManagementCyclePhases": [
+  "Phases": [
     {
       "phase_id": "PLN",
       "name": "Planning",
