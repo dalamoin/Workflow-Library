@@ -1,37 +1,37 @@
 {
-  "Super_Operations": [
+  "Universal_Functions": [
     {
-      "unique_id": "SCO",
+      "function_id": "SCO",
       "name": "Scope Management",
       "description": "Defining and controlling what is and is not included in the project. It ensures that all necessary work is performed and that no unnecessary work or \"scope creep\" occurs. This includes confirming the project's objectives, deliverables, and boundaries."
     },
     {
-      "unique_id": "TIM",
+      "function_id": "TIM",
       "name": "Time Management",
       "description": "Planning, scheduling, and controlling the project's duration. It involves defining activities, sequencing them, estimating their durations, developing a schedule, and monitoring progress to ensure timely completion."
     },
     {
-      "unique_id": "CST",
+      "function_id": "CST",
       "name": "Cost Management",
       "description": "Planning, estimating, budgeting, financing, funding, managing, and controlling costs so that the project can be completed within the approved budget. It includes forecasting costs, tracking expenditures, and managing financial resources."
     },
     {
-      "unique_id": "QLT",
+      "function_id": "QLT",
       "name": "Quality Management",
       "description": "Ensures that the project and its deliverables meet specified quality standards. It involves planning for quality, implementing quality assurance processes, and performing quality control to ensure that the work conforms to requirements and is fit for purpose."
     },
     {
-      "unique_id": "RSC",
+      "function_id": "RSC",
       "name": "Resource Management",
       "description": "Identifying, acquiring, and managing all the resources needed for the project, whether internal or external. This encompasses planning for human resources (personnel, labor), materials, equipment, and facilities, as well as the acquisition of goods and services from outside the project team through activities like planning purchases, conducting procurements (e.g., bidding, contract awarding), and administering contracts. It's about optimizing the utilization and availability of all necessary resources throughout the project lifecycle."
     },
     {
-      "unique_id": "RSK",
+      "function_id": "RSK",
       "name": "Risk Management",
       "description": "Identifying, assessing, and responding to project risks. It aims to minimize the potential negative impacts of threats and maximize the potential positive impacts of opportunities. This includes developing strategies for risk mitigation, acceptance, transfer, or avoidance."
     },
     {
-      "unique_id": "REL",
+      "function_id": "REL",
       "name": "Relationship Management",
       "description": "Encompasses identifying all project stakeholders, analyzing their interests and influence, and developing strategies to effectively engage them. It involves planning, implementing, and controlling the flow of information among all parties to ensure understanding, manage expectations, resolve conflicts, foster collaboration, and build positive, productive relationships throughout the project lifecycle."
     }
