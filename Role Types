@@ -1,0 +1,185 @@
+{
+  "role_types_dictionary": {
+    "Administrator": {
+      "role_id": "ADM",
+      "description": "Manages documentation, records, and administrative processes",
+      "primary_functions": ["documentation", "archival", "record_keeping", "administrative_support"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Analyst": {
+      "role_id": "ANA",
+      "description": "Analyzes data, identifies patterns, and provides insights for decision-making",
+      "primary_functions": ["data_analysis", "variance_analysis", "requirements_analysis", "performance_evaluation"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Approver": {
+      "role_id": "APR",
+      "description": "Reviews and makes approval decisions on requests and changes",
+      "primary_functions": ["approval_decisions", "authorization", "gate_keeping", "compliance_verification"],
+      "authority_level": "Management",
+      "decision_making": "High"
+    },
+    "Authorizer": {
+      "role_id": "AUT",
+      "description": "Provides authorization for expenditures, actions, and resources",
+      "primary_functions": ["expenditure_authorization", "action_approval", "resource_authorization", "permission_granting"],
+      "authority_level": "Management",
+      "decision_making": "High"
+    },
+    "Auditor": {
+      "role_id": "AUD",
+      "description": "Conducts audits and assessments for compliance and quality",
+      "primary_functions": ["compliance_auditing", "quality_auditing", "process_auditing", "performance_auditing"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Collector": {
+      "role_id": "COL",
+      "description": "Gathers and compiles information, data, and requirements",
+      "primary_functions": ["data_collection", "information_gathering", "requirement_compilation", "input_aggregation"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Communicator": {
+      "role_id": "COM",
+      "description": "Manages communication channels and information dissemination",
+      "primary_functions": ["information_dissemination", "stakeholder_communication", "reporting", "messaging"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Coordinator": {
+      "role_id": "CRD",
+      "description": "Coordinates activities, resources, and stakeholder interactions",
+      "primary_functions": ["activity_coordination", "resource_coordination", "stakeholder_coordination", "process_facilitation"],
+      "authority_level": "Operational",
+      "decision_making": "Moderate"
+    },
+    "Creator": {
+      "role_id": "CRT",
+      "description": "Creates deliverables, documents, and project artifacts",
+      "primary_functions": ["deliverable_creation", "document_development", "artifact_generation", "output_production"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Developer": {
+      "role_id": "DEV",
+      "description": "Develops plans, strategies, and methodological frameworks",
+      "primary_functions": ["plan_development", "strategy_formulation", "methodology_creation", "framework_design"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Estimator": {
+      "role_id": "EST",
+      "description": "Provides estimates for duration, cost, effort, and resource requirements",
+      "primary_functions": ["duration_estimation", "cost_estimation", "effort_estimation", "resource_estimation"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Evaluator": {
+      "role_id": "EVA",
+      "description": "Evaluates performance, effectiveness, and compliance",
+      "primary_functions": ["performance_evaluation", "effectiveness_assessment", "compliance_evaluation", "quality_assessment"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Executor": {
+      "role_id": "EXE",
+      "description": "Executes plans, strategies, and operational activities",
+      "primary_functions": ["plan_execution", "strategy_implementation", "operational_delivery", "activity_performance"],
+      "authority_level": "Operational",
+      "decision_making": "Moderate"
+    },
+    "Forecaster": {
+      "role_id": "FOR",
+      "description": "Provides forecasts and projections for future performance",
+      "primary_functions": ["performance_forecasting", "trend_projection", "future_state_prediction", "projection_analysis"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Manager": {
+      "role_id": "MGR",
+      "description": "Manages teams, processes, and organizational resources",
+      "primary_functions": ["team_management", "process_management", "resource_management", "strategic_oversight"],
+      "authority_level": "Management",
+      "decision_making": "High"
+    },
+    "Mediator": {
+      "role_id": "MED",
+      "description": "Mediates conflicts and facilitates resolution between parties",
+      "primary_functions": ["conflict_resolution", "negotiation_facilitation", "dispute_mediation", "relationship_repair"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Methodologist": {
+      "role_id": "MET",
+      "description": "Establishes methodologies, standards, and systematic approaches",
+      "primary_functions": ["methodology_establishment", "standards_definition", "systematic_approach_design", "best_practice_development"],
+      "authority_level": "Strategic",
+      "decision_making": "High"
+    },
+    "Monitor": {
+      "role_id": "MON",
+      "description": "Monitors performance, progress, and compliance indicators",
+      "primary_functions": ["performance_monitoring", "progress_tracking", "compliance_monitoring", "indicator_surveillance"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Negotiator": {
+      "role_id": "NEG",
+      "description": "Negotiates agreements, contracts, and resolutions",
+      "primary_functions": ["contract_negotiation", "agreement_facilitation", "terms_negotiation", "deal_structuring"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Planner": {
+      "role_id": "PLN",
+      "description": "Plans activities, resources, and strategic initiatives",
+      "primary_functions": ["activity_planning", "resource_planning", "strategic_planning", "schedule_development"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Processor": {
+      "role_id": "PRC",
+      "description": "Processes requests, transactions, and operational workflows",
+      "primary_functions": ["request_processing", "transaction_processing", "workflow_execution", "operational_processing"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Reviewer": {
+      "role_id": "REV",
+      "description": "Reviews deliverables, processes, and compliance for quality and accuracy",
+      "primary_functions": ["deliverable_review", "process_review", "compliance_review", "quality_verification"],
+      "authority_level": "Specialist",
+      "decision_making": "Recommendation"
+    },
+    "Specialist": {
+      "role_id": "SPC",
+      "description": "Provides specialized expertise in specific technical or functional domains",
+      "primary_functions": ["technical_expertise", "specialized_knowledge", "domain_expertise", "expert_consultation"],
+      "authority_level": "Specialist",
+      "decision_making": "Moderate"
+    },
+    "Strategist": {
+      "role_id": "STR",
+      "description": "Develops strategic approaches and long-term planning initiatives",
+      "primary_functions": ["strategic_development", "long_term_planning", "strategic_analysis", "approach_formulation"],
+      "authority_level": "Strategic",
+      "decision_making": "High"
+    },
+    "Tracker": {
+      "role_id": "TRK",
+      "description": "Tracks progress, changes, and performance metrics",
+      "primary_functions": ["progress_tracking", "change_tracking", "metric_tracking", "status_monitoring"],
+      "authority_level": "Support",
+      "decision_making": "Limited"
+    },
+    "Allocator": {
+      "role_id": "ALL",
+      "description": "Allocates resources and assigns responsibilities",
+      "primary_functions": ["resource_allocation", "responsibility_assignment", "workload_distribution", "capacity_planning"],
+      "authority_level": "Operational",
+      "decision_making": "Moderate"
+    }
+  }
