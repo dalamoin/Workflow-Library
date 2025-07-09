@@ -3,37 +3,51 @@
     {
       "function_id": "SCO",
       "name": "Scope Management",
-      "description": "Defining and controlling what is and is not included in the project. It ensures that all necessary work is performed and that no unnecessary work or \"scope creep\" occurs. This includes confirming the project's objectives, deliverables, and boundaries."
+      "description": "Establishing and maintaining clear project boundaries by defining what work will and will not be performed, managing scope changes through formal control processes, and ensuring all contracted deliverables are identified and tracked.",
+      "success_criteria": "Project boundaries remain clearly defined and controlled, with all scope changes properly authorized and documented, and contracted deliverables completed as originally defined or formally modified.",
+      "business_rationale": "Prevents costly scope creep and contract disputes while ensuring client expectations are met and profit margins are protected through disciplined change management."
     },
     {
       "function_id": "TIM",
-      "name": "Time Management",
-      "description": "Planning, scheduling, and controlling the project's duration. It involves defining activities, sequencing them, estimating their durations, developing a schedule, and monitoring progress to ensure timely completion."
+      "name": "Time Management", 
+      "description": "Developing and maintaining project schedules that sequence construction activities logically, allocate appropriate durations, and track progress against planned milestones to ensure timely project completion.",
+      "success_criteria": "Project activities are completed according to the planned schedule, with key milestones met and overall project duration controlled within acceptable parameters.",
+      "business_rationale": "Ensures on-time delivery to maintain client satisfaction and avoid liquidated damages while optimizing resource utilization and minimizing carrying costs."
     },
     {
       "function_id": "CST",
       "name": "Cost Management",
-      "description": "Planning, estimating, budgeting, financing, funding, managing, and controlling costs so that the project can be completed within the approved budget. It includes forecasting costs, tracking expenditures, and managing financial resources."
+      "description": "Establishing project budgets, tracking expenditures against approved allocations, forecasting final costs, and controlling financial performance to ensure the project is completed within economic constraints.",
+      "success_criteria": "Project costs remain within approved budget parameters, with expenditures properly controlled and final costs meeting financial objectives.",
+      "business_rationale": "Protects profit margins and ensures financial viability while maintaining competitive positioning and enabling accurate future project bidding."
     },
     {
       "function_id": "QLT",
       "name": "Quality Management",
-      "description": "Ensures that the project and its deliverables meet specified quality standards. It involves planning for quality, implementing quality assurance processes, and performing quality control to ensure that the work conforms to requirements and is fit for purpose."
+      "description": "Ensuring construction work meets specified standards, codes, and performance requirements through systematic quality planning, assurance processes, and control measures that verify conformance to specifications.",
+      "success_criteria": "Construction work consistently meets or exceeds specified quality standards, with defects minimized and all deliverables conforming to required specifications and performance criteria.",
+      "business_rationale": "Reduces rework costs and warranty claims while building reputation for excellence and ensuring regulatory compliance to avoid costly corrections and legal issues."
     },
     {
       "function_id": "RSC",
       "name": "Resource Management",
-      "description": "Identifying, acquiring, and managing all the resources needed for the project, whether internal or external. This encompasses planning for human resources (personnel, labor), materials, equipment, and facilities, as well as the acquisition of goods and services from outside the project team through activities like planning purchases, conducting procurements (e.g., bidding, contract awarding), and administering contracts. It's about optimizing the utilization and availability of all necessary resources throughout the project lifecycle."
+      "description": "Securing and optimizing the deployment of all project resources including labor, materials, equipment, and subcontractors to ensure adequate availability and efficient utilization throughout the construction process.",
+      "success_criteria": "Required resources are available when needed and utilized efficiently, with minimal waste, delays, or conflicts in resource allocation and deployment.",
+      "business_rationale": "Maximizes productivity and minimizes idle time while controlling resource costs and ensuring project continuity through effective resource planning and allocation."
     },
     {
       "function_id": "RSK",
       "name": "Risk Management",
-      "description": "Identifying, assessing, and responding to project risks. It aims to minimize the potential negative impacts of threats and maximize the potential positive impacts of opportunities. This includes developing strategies for risk mitigation, acceptance, transfer, or avoidance."
+      "description": "Identifying potential threats and opportunities that could impact project outcomes, developing response strategies, and implementing contingency measures to manage uncertainty and minimize negative impacts.",
+      "success_criteria": "Project risks are effectively anticipated and managed, with contingency plans successfully mitigating negative impacts and uncertainty kept within acceptable tolerance levels.",
+      "business_rationale": "Prevents costly surprises and project failures while enabling informed decision-making and protecting company reputation through proactive risk mitigation."
     },
     {
       "function_id": "REL",
       "name": "Relationship Management",
-      "description": "Encompasses identifying all project stakeholders, analyzing their interests and influence, and developing strategies to effectively engage them. It involves planning, implementing, and controlling the flow of information among all parties to ensure understanding, manage expectations, resolve conflicts, foster collaboration, and build positive, productive relationships throughout the project lifecycle."
+      "description": "Building and maintaining effective working relationships with all project stakeholders, facilitating clear communication, managing expectations, and resolving conflicts to ensure collaborative project execution.",
+      "success_criteria": "Stakeholder relationships remain productive and collaborative, with effective communication maintained and conflicts resolved promptly without disrupting project progress.",
+      "business_rationale": "Enables smooth project execution and future business opportunities while reducing conflicts and change orders through effective stakeholder engagement and communication."
     }
   ]
 }
